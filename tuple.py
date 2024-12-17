@@ -1,0 +1,13 @@
+a=[2,3,4]
+b=tuple(a)
+print(b)
+a.append(5)
+b=tuple(a)
+print(b)
+a.remove(3)
+b=tuple(a)
+print(b)
+a.append(2)
+print(a)
+b=tuple(a)
+print(b)
