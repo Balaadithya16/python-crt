@@ -1,11 +1,12 @@
 def enque():
     a=int(input("Enter enque element:"))
-    l.insert(0,a)
+    l.append(a)
 def deque():
     if len(l)==0:
         print("queue is empty")
     else:
-        print("The deque element is",l.remove(l[0]))
+        print("The deque element is",l[0])
+        l.remove(l[0])
 def exit():
     return False
 l=[] 
